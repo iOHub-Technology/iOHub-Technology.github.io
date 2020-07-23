@@ -18,40 +18,10 @@ nav{
     box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
 }
 
-.nav-menu{
-    float: right;
-    line-height: 32px;
-}
-
-nav ul li{
-    float: left;
-    margin-top: 15px;
-    margin-right: 15px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-}
-
-nav ul li a{
-    color: #000;
-}
-
-nav ul li a:hover{
-    color: #afafaf!important;
-}
 
 .logo{
     float: left;
 }
-
- .responsive{
-    display: none;
-    font-size: 23px;
-}
-    
-.active{
-    color:#afafaf;
-}
-
 
 footer{
     background: #000;
@@ -125,7 +95,6 @@ input:-webkit-autofill {
    letter-spacing: -3px;
    margin-bottom: 20px;
 }
-
 
 /* Margins */
 
@@ -847,13 +816,11 @@ input:-webkit-autofill {
 }
 
 
-
-
 /*------------------------ 5 Blog ------------------------*/
 
 .blog-image img{
-    width: 100%;
-    min-height: 207px;
+    width: 80%;
+    border-radius: 50px;
 }
 
 .blog-content{
@@ -864,148 +831,15 @@ input:-webkit-autofill {
     font-size: 18px;
     letter-spacing: 0;
     line-height: 27px;
-    padding: 30px 0 15px;
+    padding: 30px 0 10px;
     color: #000;
 }
 
-.blog-info{
-    font-size: 12px;
-    font-weight: 400;
-    color: #b9b9b9;
-    margin-top: 20px;
-    display: inline-block;
-}
-
-.blog-info span{
-    color: #000;
-    font-weight: 600;
-}
-
-.blog .site-button{
-    margin:0 auto 60px;
-    display: table;
-}
-
-.blog-single h1 {
-    font-size: 30px;
-    line-height: 41px;
-    margin: 25px 0 22px 0;
-    color: #000;
-    font-weight: 600;
-    letter-spacing: -1px;
-}
-
-.blog-single .blog-detail{
-    font-size: 13px;
-    color: #b9b9b9;
-    margin-bottom: 30px;
-}
-
-.blog-single .blog-detail span{
-    color: #000;
-}
-
-.blog-single blockquote {
-    font-size: 14px;
-    line-height: 24px;
-    color: #000;
-    border-left: 4px solid #000;
-    padding-left: 20px;
-    margin: 40px 0;
-}
-
-.blog-single ul.list-style {
-    padding: 30px;
-    line-height: 24px;
-}
-
-.blog-single ul.list-style li {
-    font-size: 14px;
-    list-style: circle;
-}
-
-.lightbox-image img{
-    width: 100%;
-    padding-bottom: 30px;
-}
-
-.blog-single .post-lightbox{
-    padding: 30px 0 0;
- }
-
-.subtitle {
-     font-size: 22px;
-    line-height: 24px;
-    margin: 25px 0 30px 0;
-    color: #000;
-    font-weight: bold;
-}
-
-.post-comment {
-    float: left;
-}
-
-ul.post-comment li {
-    width: 100%;
-    float: left;
-    border-bottom: 1px solid #efefef;
-    padding: 15px 0;
-    list-style: none;
-}
-
-ul.post-comment li img {
-    width: 15%;
-    float: left;
-}
-
-ul.post-comment li .comment-info {
-    float: left;
-    width: 85%;
-    padding-left: 15px;
-        margin-top: 15px;
-}
-
-
-ul.post-comment li h3 {
-    float: left;
-    font-size: 14px;
-}
-
-ul.post-comment li a {
-    float: right;
-    font-size: 11px;
-    font-weight: bold;
-    color: #000;
-}
-
-ul.post-comment li span {
-    float: left;
-    width: 100%;
-    font-size: 12px;
-    color: #c5c5c5;
-    margin-top: 3px;
-}
-
-ul.post-comment li p {
-    font-size: 12px;
-    line-height: 20px;
-    float: left;
-    margin-top: 6px;
-}
-
-.send-message{
-    margin-top:60px !important;
-}
-
-.send-message .subtitle{
-    margin-bottom:30px;
-}
-
-.blog .dgray-bg .sitebtn{
-    margin-right:120px;
-}
-
-
+.center {
+    margin: auto;
+    width: 80%;    
+    padding: 10px;
+  }
 
 /*------------------------ 5 Contact ------------------------*/
 
@@ -1126,8 +960,6 @@ a.site-button{
 /*max Width 768px */
 
 @media screen and (max-width: 767px) {
-
-
     
     .home-content h1{
         font-size: 32px;
@@ -1196,11 +1028,7 @@ a.site-button{
     .portfolio_filter ul li{
         height: 30px;
     }
-    
-    .diagonal, .diagonal-gray, .diagonal-white{
-        height: 70px;
-    }
-    
+            
     .row.bottom_90{
         margin-bottom: 0;
     }
@@ -1211,19 +1039,7 @@ a.site-button{
     
 }
 
-
-/*min Width 768px */
-@media screen and (min-width: 768px) {
-    
- .nav-menu{
-        display: block!important;
-    }
-    
-}
-
-
 /*------------------------ 7 Slider & Video Home ------------------------*/
-
 
 .home-slider{
     position: absolute;
@@ -1237,31 +1053,7 @@ a.site-button{
     background: none !important;
 }
 
-.home-video{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-
-
-
 .wow-removed{
      animation-name: none !important;
         visibility: visible !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
